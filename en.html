@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Joaquim Cartaxo, Senior QA Engineer. Test strategy, web and API automation, and tools for troubleshooting, monitoring, and AI in QA.">
+<meta name="theme-color" content="#091522"><title>Joaquim Cartaxo | Senior QA · Automation · AI in QA</title><link rel="stylesheet" href="styles.css">
+<link rel="alternate" hreflang="pt-BR" href="https://joaquimcartaxoqa.github.io/"><link rel="alternate" hreflang="en" href="https://joaquimcartaxoqa.github.io/en.html">
+</head>
+<body>
+<a class="skip" href="#conteudo">Skip to content</a>
+<header>
+  <nav class="wrap" aria-label="Navegação principal">
+    <a class="brand" href="#inicio">Joaquim<span>.</span>QA</a>
+    <div class="navlinks">
+      <a href="#solucoes">QA Solutions</a>
+      <a href="#projetos">Projects</a>
+      <a href="#sobre">About</a>
+      <a href="#competencias">Skills</a>
+      <a href="#experiencia">Experience</a>
+      <a href="#contato">Contact</a>
+      <a href="./" hreflang="pt-BR" lang="pt-BR">Português</a>
+    </div>
+  </nav>
+</header>
+<main id="conteudo">
+<section id="inicio" class="hero wrap" aria-labelledby="titulo">
+  <div>
+    <p class="eyebrow">Joaquim Cartaxo · Senior QA</p>
+    <h1 id="titulo">Test strategy, <span>automation, and AI in QA</span></h1>
+    <p class="intro">I have more than 10 years of experience in software quality. I test web applications and APIs and check data. I build QA tools to investigate failures, organize evidence, and support technical decisions.</p>
+    <div class="buttons">
+      <a class="btn primary" href="#solucoes">Explore my QA solutions</a>
+      <a class="btn" href="#projetos">View projects</a>
+    </div>
+    <p class="location">Fortaleza, Brazil · Open to fully remote roles · Intermediate English</p>
+  </div>
+  <aside class="method" aria-labelledby="abordagem">
+    <h2 id="abordagem">My approach to quality</h2>
+    <ul>
+      <li><div><strong>Focus on the biggest risks</strong><p>I use requirements and acceptance criteria to choose the most important test scenarios.</p></div></li>
+      <li><div><strong>Test across different layers</strong><p>I test the user interface, APIs, and data to check how the system works.</p></div></li>
+      <li><div><strong>Check results against evidence</strong><p>I review AI suggestions using requirements, code, and actual test results.</p></div></li>
+    </ul>
+  </aside>
+</section>
+
+<section id="solucoes" class="ai-section" aria-labelledby="titulo-solucoes">
+  <div class="wrap">
+    <h2 id="titulo-solucoes">QA Solutions I Build</h2>
+    <p class="section-lead">I build tools for technical mentoring, bug triage, and monitoring. They help teams review logs and investigate problems.</p>
+    <div class="projects-grid case-grid">
+      <article class="project">
+        <p class="status">MVP</p>
+        <h3>API Monitoring Platform</h3>
+        <p>The platform uses JSONL logs to investigate API requests. It links events by <code>requestId</code> and requires users to sign in to see the details. It records who accessed the details in PostgreSQL.</p>
+        <p><strong>QA in practice</strong> — I check the log format and sign-in scenarios. I also test the API and the user interface with test data.</p>
+        <a class="text-link" href="https://github.com/JoaquimcartaxoQA/api-monitoring-platform">View the API Monitoring code ↗</a>
+      </article>
+      <article class="project">
+        <p class="status">Private plugin installed</p>
+        <h3>Senior QA Engineering Mentor</h3>
+        <p>This plugin has modules for test strategy, automation, test coverage, and troubleshooting. It uses evidence to make recommendations and asks for human approval before taking action.</p>
+        <p><strong>AI architecture</strong> — The plugin has shared rules and modules for different areas of QA.</p>
+      </article>
+      <article class="project">
+        <p class="status">Automation in place</p>
+        <h3>QA Automation for Bug Reports</h3>
+        <p>A scheduled workflow helps review support reports and prepare bug report drafts. The drafts include steps to reproduce the bug, results, and evidence.</p>
+        <p><strong>Quality control</strong> — The workflow uses a bug report template and is designed for human approval before a Jira issue is created.</p>
+      </article>
+      <article class="project">
+        <p class="status">Architecture in planning</p>
+        <h3>Agent Log Viewer</h3>
+        <p>I am designing an agent that accepts questions in plain language to investigate failures. It connects related events and links possible causes to the logs used in the investigation.</p>
+        <p><strong>Context engineering</strong> — The design limits access to evidence and helps show what information is missing from an investigation.</p>
+      </article>
+    </div>
+    <div id="ia" class="context-note">
+      <h3>Context engineering and my second brain</h3>
+      <p>I use Obsidian as a second brain to organize requirements, design decisions, risks, and test plans. These notes help me find information from past investigations and check the agents’ recommendations against the evidence.</p>
+    </div>
+  </div>
+</section>
+
+<section id="projetos" aria-labelledby="titulo-projetos">
+  <div class="wrap">
+    <h2 id="titulo-projetos">QA Techniques in My Projects</h2>
+    <div class="projects-grid case-grid">
+      <article class="project">
+        <h3>TrihbAU PetShop</h3>
+        <p>I test the pet owner’s journey with Playwright, the app logic with Vitest, and the API with REST Assured. The tests cover sign-up, login, booking limits, and keeping each owner’s data separate.</p>
+        <div class="evidence-links">
+          <a href="https://github.com/JoaquimcartaxoQA/trihbau-petshop-login">TrihbAU source code ↗</a>
+          <a href="https://github.com/JoaquimcartaxoQA/trihbau-petshop-login/pull/1">Pull request for tests and coverage ↗</a>
+          <a href="https://github.com/JoaquimcartaxoQA/trihbau-petshop-login/blob/4f6d14f92264f8850523cf0dc3175b41ac50e2c8/docs/qa/matriz-cenarios-teste.md">Test scenario matrix ↗</a>
+          <a href="https://github.com/JoaquimcartaxoQA/trihbau-petshop-login/blob/4f6d14f92264f8850523cf0dc3175b41ac50e2c8/docs/qa/matriz-riscos-teste-ia.md">Risk matrix ↗</a>
+          <a href="https://github.com/JoaquimcartaxoQA/trihbau-petshop-login/blob/4f6d14f92264f8850523cf0dc3175b41ac50e2c8/docs/qa/analise-falha-tecnica-3.md">Failure investigation ↗</a>
+        </div>
+      </article>
+      <article class="project">
+        <h3>Braviju · Marketing Management</h3>
+        <p>I test session security, CSRF protection, and whether each company’s data stays separate. I use JUnit and PostgreSQL for integration tests, Playwright for UI tests, and GitHub Actions to run checks.</p>
+        <p class="note">Private repository</p>
+      </article>
+      <article class="project">
+        <h3>AgendaSaaS</h3>
+        <p>I use JUnit and PostgreSQL with Testcontainers to test permissions, session expiry, attempt limits, and the initial admin setup. I use Playwright to check the HTTP contract and JaCoCo to measure Java test coverage.</p>
+        <p class="note">Private repository</p>
+      </article>
+      <article class="project">
+        <h3>Carta para Nikola · Nikola Race</h3>
+        <p>I run regression tests for race physics and rankings. Playwright tests in Chromium cover all three tracks, keyboard and touch controls, pausing, resuming, and the podium.</p>
+        <div class="evidence-links">
+          <a href="https://github.com/JoaquimcartaxoQA/carta-para-nikola">Nikola Race source code ↗</a>
+          <a href="https://github.com/JoaquimcartaxoQA/carta-para-nikola/pull/4">Pull request for regression tests and coverage ↗</a>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section id="sobre"><div class="wrap split"><div><p class="eyebrow">Career and Current Focus</p><h2>Quality starts with understanding the problem.</h2></div><div class="prose"><p>I plan tests, investigate bugs, and work with developers and business teams. I have experience in international trade, SAP integrations, and web applications. My work includes planning test scenarios, checking data, and automating critical workflows.</p><p>I also have experience in e-commerce and telecommunications. Mentoring, clear documentation, and acceptance criteria are part of my work.</p><p>In recent projects, I build applications to practice QA and explore how AI can help review requirements, write test scenarios, and link tests to requirements. I build on my QA experience and include human review in the process.</p></div></div></section>
+<section id="competencias"><div class="wrap"><p class="eyebrow">Areas of Work</p><h2>From test strategy to troubleshooting.</h2><p class="section-lead">I developed these skills in my professional roles and use them in my projects.</p><div class="skills-grid">
+<article class="skill"><h3>Strategy and Collaboration</h3><p>I review requirements and acceptance criteria, prioritize tests by risk, and plan positive, negative, and regression tests. I also mentor QA team members.</p></article>
+<article class="skill"><h3>UI Automation</h3><p>I use Playwright and Cypress with TypeScript and JavaScript. I use Page Objects and end-to-end tests to check how web applications work.</p></article>
+<article class="skill"><h3>APIs and Integrations</h3><p>I use Java, REST Assured, Postman, and Swagger to check API responses, error handling, authentication, and how system layers work together.</p></article>
+<article class="skill"><h3>Data and Business Systems</h3><p>I work with SQL, MySQL, and Oracle PL/SQL. I have experience with SAP ERP and S/4HANA and use PostgreSQL in recent projects.</p></article>
+<article class="skill"><h3>Software Delivery and Troubleshooting</h3><p>I use Git, CI/CD, GitHub Actions, and GitLab CI. I review logs and document bugs and test evidence to help teams make release decisions.</p></article>
+<article class="skill"><h3>Learning and Using AI</h3><p>I write prompts and organize documentation to support QA analysis and review. I study AI architecture and use it in freelance projects with MCP, autonomous agents, multi-agent systems, RAG, and embeddings. I also explore AI and harness engineering for DevOps and build my skills in integration testing and application architecture.</p></article>
+</div></div></section>
+<section id="experiencia"><div class="wrap"><p class="eyebrow">Professional Experience</p><h2>More than 10 years in software quality.</h2><div class="timeline">
+<article><div class="period">Mar 2021 — Jul 2026</div><div><h3>Kestraa</h3><p class="role">Senior Quality Assurance Engineer</p><p>I managed end-to-end quality for an international trade platform. This included product features and fixes from support. I set test priorities, worked on acceptance criteria, and documented evidence for several teams.</p><p>I ran functional, integration, API, regression, and responsive design tests. I used Playwright, Cypress, and REST Assured for automation. I checked data with SQL and worked with SAP ERP and S/4HANA.</p></div></article>
+<article><div class="period">Jan 2019 — Mar 2021</div><div><h3>Spread Tecnologia</h3><p class="role">Senior Quality Assurance Engineer</p><p>I worked with a software development team to turn client requirements into test cases. I set shared standards for test cases and evidence, shared knowledge, and worked closely with developers.</p><p>I ran manual tests, used SQL to check data in SAP ERP, and managed tests and bugs with TestLink, Mantis, and HP-ALM.</p></div></article>
+<article><div class="period">Feb 2015 — Jul 2018</div><div><h3>FortalNET</h3><p class="role">Junior QA to Senior QA Analyst</p><p>I tested a sales application for an internet service provider. I learned how the telecom business worked, planned tests, checked end-to-end workflows, and validated data.</p><p>I used SQL, Jira, and TestLink. I studied Selenium to build my test automation skills.</p></div></article>
+</div><p class="education"><strong>Education:</strong> Systems Analysis and Development — FAMETRO (2010–2013). Technical Program in IT — CEPEP (2011–2012).</p></div></section>
+<section id="contato"><div class="wrap contact-layout"><div><p class="eyebrow">Contact</p><h2>Let’s talk about software quality.</h2><p class="section-lead">I am looking for remote Senior QA and QA Automation roles. I bring test strategy, automation skills, and an understanding of business needs.</p></div><div class="contact-links"><a class="btn primary" href="mailto:jcartaxo.bjj@gmail.com">Send an email ↗</a><a class="btn" href="https://wa.me/5585997339952?text=Hi%20Joaquim%2C%20I%20saw%20your%20portfolio%20and%20would%20like%20to%20talk." target="_blank" rel="noopener noreferrer">WhatsApp ↗</a><a class="text-link" href="https://www.linkedin.com/in/joaquim-cartaxo-qa/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a><a class="text-link" href="https://github.com/JoaquimcartaxoQA" target="_blank" rel="noopener noreferrer">GitHub ↗</a></div></div></section>
+</main><footer><div class="wrap"><p>© 2026 Joaquim Cartaxo</p><a href="#inicio">Back to top ↑</a></div></footer>
+</body></html>
